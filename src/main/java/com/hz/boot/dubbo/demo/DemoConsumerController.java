@@ -2,6 +2,7 @@ package com.hz.boot.dubbo.demo;
 
 import com.alibaba.dubbo.config.annotation.Reference;
 import com.hz.DemoService;
+import org.springframework.context.annotation.Lazy;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
