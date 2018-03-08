@@ -2,12 +2,14 @@ package com.hz.boot.dubbo.demo;
 
 import com.alibaba.dubbo.config.ApplicationConfig;
 import com.alibaba.dubbo.config.RegistryConfig;
+import com.alibaba.dubbo.spring.boot.annotation.EnableDubboConfiguration;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
+@EnableDubboConfiguration
 public class DubboCreditConfig {
-
+/*
     private final static String APPLICATIONNAME="demo-consumer";
 
     private final static String REGISTRYADDRESS="127.0.0.1";
@@ -30,5 +32,5 @@ public class DubboCreditConfig {
         registryConfig.setProtocol(REGISTRYPROTOCOL);
         return registryConfig;
     }
-
+*/
 }
